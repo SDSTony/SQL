@@ -1,8 +1,9 @@
 SHOW columns FROM actor;
 
+-- calculation order: 1. where, 2. select
 -- SELECT: the data I want
 -- FROM: the database and tables
--- WHERE: these critera are met, and
+-- WHERE: these critera are met, and 
 -- GROUP (BY): this field
 -- HAVING: this property, then
 -- ORDER (BY): this field
